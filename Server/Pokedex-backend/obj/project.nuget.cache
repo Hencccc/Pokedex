@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZIRJgD8H4cLQ0X7RwTtPJrJqI1U3S+hoo6SfihmbOXrB9PCPuXCILekGv7zbd5SYpK6D+JVdr0DeH1yWlyh1EA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Henric\\Documents\\Programmering\\Pokedex-Stacc\\Server\\Pokedex-backend\\Pokedex-backend.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Henric\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\Henric\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Henric\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\Henric\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\Henric\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\Henric\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}
