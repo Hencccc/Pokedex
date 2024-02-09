@@ -24,16 +24,15 @@ namespace Pokedex_backend.Services
         {
             var result = await _httpClient.GetAsync(name);
 
-            if(result.IsSuccessStatusCode)
+            if (result.IsSuccessStatusCode)
             {
                 var pokemon = JsonSerializer.Deserialize<Pokemon>(await result.Content.ReadAsStreamAsync());
-                return new PokemonDTO(pokemon.Id, pokemon.Name, pokemon.Sprites.FrontDefault); 
+                return new PokemonDTO(pokemon.Id, pokemon.Name, pokemon.Sprites.FrontDefault);
             }
             else
             {
-                //throw new HttpRequestException($"Failed to fetch pokemon with name: {name}");
                 return null;
-            };
+            }
         }
 
         public async Task<PokemonDTO> GetPokemonByIdAsync(int id)
@@ -47,9 +46,8 @@ namespace Pokedex_backend.Services
             }
             else
             {
-                //throw new HttpRequestException($"Failed to fetch pokemon with name: {name}");
                 return null;
-            };
+            }
         }
     }
 }

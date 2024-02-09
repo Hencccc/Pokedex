@@ -25,3 +25,8 @@ C:\Users\Henric\Documents\Programmering\Pokedex-Stacc\Server\Pokedex-backend\obj
 C:\Users\Henric\Documents\Programmering\Pokedex-Stacc\Server\Pokedex-backend\obj\Debug\net6.0\Pokedex-backend.pdb
 C:\Users\Henric\Documents\Programmering\Pokedex-Stacc\Server\Pokedex-backend\obj\Debug\net6.0\Pokedex-backend.genruntimeconfig.cache
 C:\Users\Henric\Documents\Programmering\Pokedex-Stacc\Server\Pokedex-backend\obj\Debug\net6.0\ref\Pokedex-backend.dll
+C:\Users\Henric\Documents\Programmering\Pokedex-Stacc\Server\Pokedex-backend\obj\Debug\net6.0\staticwebassets\msbuild.Pokedex-backend.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Henric\Documents\Programmering\Pokedex-Stacc\Server\Pokedex-backend\obj\Debug\net6.0\staticwebassets\msbuild.build.Pokedex-backend.props
+C:\Users\Henric\Documents\Programmering\Pokedex-Stacc\Server\Pokedex-backend\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Pokedex-backend.props
+C:\Users\Henric\Documents\Programmering\Pokedex-Stacc\Server\Pokedex-backend\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Pokedex-backend.props
+C:\Users\Henric\Documents\Programmering\Pokedex-Stacc\Server\Pokedex-backend\obj\Debug\net6.0\staticwebassets.pack.json

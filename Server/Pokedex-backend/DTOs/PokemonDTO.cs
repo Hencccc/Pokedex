@@ -9,7 +9,7 @@
         public PokemonDTO(int id, string name, string image)
         {
             Id = id;
-            Name = name;   
+            Name = name;
             Image = image;
         }
     }

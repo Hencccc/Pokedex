@@ -20,13 +20,13 @@ namespace Pokedex_backend.Controllers
             if (pokemon != null)
             {
                 return Ok(pokemon);
-            } 
+            }
             else
             {
                 return NotFound();
             }
         }
-        
+
         [HttpGet("{id:int}")]
         public async Task<IActionResult> GetPokemonByIdAsync(int id)
         {
@@ -34,7 +34,7 @@ namespace Pokedex_backend.Controllers
             if (pokemon != null)
             {
                 return Ok(pokemon);
-            } 
+            }
             else
             {
                 return NotFound();
