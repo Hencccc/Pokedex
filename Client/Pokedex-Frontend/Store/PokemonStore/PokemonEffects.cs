@@ -26,7 +26,7 @@ public class PokemonEffects
         }
         else
         {
-            dispatcher.Dispatch(new PokemonFetchedFailedAction());
+            dispatcher.Dispatch(new PokemonFetchedByNameFailedAction(action.Name));
         }
     }
 
@@ -42,7 +42,7 @@ public class PokemonEffects
         }
         else
         {
-            dispatcher.Dispatch(new PokemonFetchedFailedAction());
+            dispatcher.Dispatch(new PokemonFetchedByIdFailedAction(action.Id));
         }
     }
 }

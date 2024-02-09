@@ -8,7 +8,6 @@ namespace Pokedex_Frontend.Pages;
 public partial class Index
 {
     private string _input { get; set; } = string.Empty;
-    private string _searchValue { get; set; } = string.Empty;
 
     [Inject]
     private IDispatcher Dispatcher { get; set; }
@@ -22,12 +21,12 @@ public partial class Index
     protected override void OnInitialized()
     {
         base.OnInitialized();
-        SubscribeToAction<PokemonFetchedFailedAction>(ShowErrorToast);
+        SubscribeToAction<PokemonFetchedByNameFailedAction>(ShowErrorToastWithName);
+        SubscribeToAction<PokemonFetchedByIdFailedAction>(ShowErrorToastWithId);
     }
 
     private void DispatchFetchPokemon()
     {
-        _searchValue = _input;
         Dispatcher.Dispatch(int.TryParse(_input, out int n)
             ? new PokemonFetchByIdAction(n)
             : new PokemonFetchByNameAction(_input));
@@ -35,10 +34,13 @@ public partial class Index
         _input = string.Empty;
     }
 
-    private void ShowErrorToast(PokemonFetchedFailedAction action)
+    private void ShowErrorToastWithName(PokemonFetchedByNameFailedAction action)
     {
-        Console.WriteLine("Error: " + _searchValue);
-        ToastService.ShowError($"Pokemon with search string: {_searchValue} could not be found. Please try again.");
-        _searchValue = string.Empty;
+        ToastService.ShowError($"Pokemon with the name: {action.Name} could not be found. Please try again.");
+    }
+
+    private void ShowErrorToastWithId(PokemonFetchedByIdFailedAction action)
+    {
+        ToastService.ShowError($"Pokemon with Id: {action.Id} could not be found. Please try again.");
     }
 }

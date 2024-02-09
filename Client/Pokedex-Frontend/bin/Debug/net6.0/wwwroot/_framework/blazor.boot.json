@@ -201,13 +201,13 @@
       "mscorlib.dll": "sha256-veli+XvWHzkA3s4t4DKI+XiyNMpfHQjiO002+ExANkU=",
       "netstandard.dll": "sha256-O9JhHo5KqxkmwmapuxuhG\/iMRV7RHcrCDO9z+yv+8yI=",
       "System.Private.CoreLib.dll": "sha256-6rKu8tPdUGsvbSpesoNMVzbx7bNqPRMPV34eI7vSYaQ=",
-      "Pokedex-Frontend.dll": "sha256-PPKZTPObKhq306zqLRraEr3jjCxj655BqdJ0uqGvHAI="
+      "Pokedex-Frontend.dll": "sha256-X6\/S8JFO27W3NP6tBhwkk+xT\/uu2mFADg73fKd41I+w="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "Pokedex-Frontend.pdb": "sha256-TJ1mvfpZZZwJV45Ks1\/LYE3C9anDQkHg\/lkHnRdTvhE="
+      "Pokedex-Frontend.pdb": "sha256-k1soUjwcv3qdiUMkh4MLVP9ojxphoBqsZ6jIftCJKRg="
     },
     "runtime": {
       "dotnet.6.0.25.qcpf991ab0.js": "sha256-1jUGCCSGH9JWhkqbHdQk8JBjBI8K\/VC63En5zlypVps=",

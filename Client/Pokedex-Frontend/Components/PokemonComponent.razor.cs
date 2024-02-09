@@ -7,4 +7,3 @@ public partial class PokemonComponent
     [Parameter]
     public Pokemon Pokemon { get; set; }
 }
-
