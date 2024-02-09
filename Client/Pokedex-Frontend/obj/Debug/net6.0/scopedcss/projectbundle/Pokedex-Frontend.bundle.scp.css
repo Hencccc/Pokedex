@@ -1,0 +1,189 @@
+/* /Components/PokemonComponent.razor.rz.scp.css */
+.pokemon-card[b-a6ul0q70qf] {
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    margin-top:1rem;
+    border-radius: 0.5rem;
+    background-color: #ededed;
+    padding:4rem;
+}
+
+img[b-a6ul0q70qf]{
+    width:200px;
+    height:200px;
+}
+/* /Pages/Index.razor.rz.scp.css */
+.wrapper[b-o64ubdrgk5] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5rem;
+}
+
+.title[b-o64ubdrgk5] {
+    display: flex;
+    justify-content: center;
+}
+
+.pokemon-input[b-o64ubdrgk5] {
+    border: 1px solid #d5d9d9;
+    border-radius: 0.5rem;
+}
+
+.submit-button[b-o64ubdrgk5] {
+    background-color: #fff;
+    border: 1px solid #d5d9d9;
+    border-radius: 0.5rem;
+    padding: 0.12rem 0.5rem 0.12rem 0.5rem;
+}
+
+    .submit-button:hover[b-o64ubdrgk5] {
+        background-color: #d5d9d9;
+    }
+/* /Shared/MainLayout.razor.rz.scp.css */
+.page[b-rezdx8bysw] {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+main[b-rezdx8bysw] {
+    flex: 1;
+}
+
+.sidebar[b-rezdx8bysw] {
+    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+}
+
+.top-row[b-rezdx8bysw] {
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #d6d5d5;
+    justify-content: flex-end;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+}
+
+    .top-row[b-rezdx8bysw]  a, .top-row[b-rezdx8bysw]  .btn-link {
+        white-space: nowrap;
+        margin-left: 1.5rem;
+        text-decoration: none;
+    }
+
+    .top-row[b-rezdx8bysw]  a:hover, .top-row[b-rezdx8bysw]  .btn-link:hover {
+        text-decoration: underline;
+    }
+
+    .top-row[b-rezdx8bysw]  a:first-child {
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+@media (max-width: 640.98px) {
+    .top-row:not(.auth)[b-rezdx8bysw] {
+        display: none;
+    }
+
+    .top-row.auth[b-rezdx8bysw] {
+        justify-content: space-between;
+    }
+
+    .top-row[b-rezdx8bysw]  a, .top-row[b-rezdx8bysw]  .btn-link {
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 641px) {
+    .page[b-rezdx8bysw] {
+        flex-direction: row;
+    }
+
+    .sidebar[b-rezdx8bysw] {
+        width: 250px;
+        height: 100vh;
+        position: sticky;
+        top: 0;
+    }
+
+    .top-row[b-rezdx8bysw] {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+
+    .top-row.auth[b-rezdx8bysw]  a:first-child {
+        flex: 1;
+        text-align: right;
+        width: 0;
+    }
+
+    .top-row[b-rezdx8bysw], article[b-rezdx8bysw] {
+        padding-left: 2rem !important;
+        padding-right: 1.5rem !important;
+    }
+}
+/* /Shared/NavMenu.razor.rz.scp.css */
+.navbar-toggler[b-6kpy9kkiu8] {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.top-row[b-6kpy9kkiu8] {
+    height: 3.5rem;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.navbar-brand[b-6kpy9kkiu8] {
+    font-size: 1.1rem;
+}
+
+.oi[b-6kpy9kkiu8] {
+    width: 2rem;
+    font-size: 1.1rem;
+    vertical-align: text-top;
+    top: -2px;
+}
+
+.nav-item[b-6kpy9kkiu8] {
+    font-size: 0.9rem;
+    padding-bottom: 0.5rem;
+}
+
+    .nav-item:first-of-type[b-6kpy9kkiu8] {
+        padding-top: 1rem;
+    }
+
+    .nav-item:last-of-type[b-6kpy9kkiu8] {
+        padding-bottom: 1rem;
+    }
+
+    .nav-item[b-6kpy9kkiu8]  a {
+        color: #d7d7d7;
+        border-radius: 4px;
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        line-height: 3rem;
+    }
+
+.nav-item[b-6kpy9kkiu8]  a.active {
+    background-color: rgba(255,255,255,0.25);
+    color: white;
+}
+
+.nav-item[b-6kpy9kkiu8]  a:hover {
+    background-color: rgba(255,255,255,0.1);
+    color: white;
+}
+
+@media (min-width: 641px) {
+    .navbar-toggler[b-6kpy9kkiu8] {
+        display: none;
+    }
+
+    .collapse[b-6kpy9kkiu8] {
+        /* Never collapse the sidebar for wide screens */
+        display: block;
+    }
+}

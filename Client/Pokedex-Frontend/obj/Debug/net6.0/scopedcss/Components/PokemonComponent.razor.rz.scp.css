@@ -1,0 +1,14 @@
+.pokemon-card[b-a6ul0q70qf] {
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    margin-top:1rem;
+    border-radius: 0.5rem;
+    background-color: #ededed;
+    padding:4rem;
+}
+
+img[b-a6ul0q70qf]{
+    width:200px;
+    height:200px;
+}

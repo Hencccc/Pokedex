@@ -1,0 +1,28 @@
+.wrapper[b-o64ubdrgk5] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5rem;
+}
+
+.title[b-o64ubdrgk5] {
+    display: flex;
+    justify-content: center;
+}
+
+.pokemon-input[b-o64ubdrgk5] {
+    border: 1px solid #d5d9d9;
+    border-radius: 0.5rem;
+}
+
+.submit-button[b-o64ubdrgk5] {
+    background-color: #fff;
+    border: 1px solid #d5d9d9;
+    border-radius: 0.5rem;
+    padding: 0.12rem 0.5rem 0.12rem 0.5rem;
+}
+
+    .submit-button:hover[b-o64ubdrgk5] {
+        background-color: #d5d9d9;
+    }

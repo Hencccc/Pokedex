@@ -1,0 +1,41 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = Pokedex-Frontend
+build_property.RootNamespace = Pokedex-Frontend
+build_property.ProjectDir = C:\Users\Henric\Documents\Programmering\Pokedex-Stacc\Client\Pokedex-Frontend\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Henric\Documents\Programmering\Pokedex-Stacc\Client\Pokedex-Frontend
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Henric/Documents/Programmering/Pokedex-Stacc/Client/Pokedex-Frontend/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Henric/Documents/Programmering/Pokedex-Stacc/Client/Pokedex-Frontend/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Henric/Documents/Programmering/Pokedex-Stacc/Client/Pokedex-Frontend/Components/PokemonComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQb2tlbW9uQ29tcG9uZW50LnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-a6ul0q70qf
+
+[C:/Users/Henric/Documents/Programmering/Pokedex-Stacc/Client/Pokedex-Frontend/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-o64ubdrgk5
+
+[C:/Users/Henric/Documents/Programmering/Pokedex-Stacc/Client/Pokedex-Frontend/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-rezdx8bysw
+
+[C:/Users/Henric/Documents/Programmering/Pokedex-Stacc/Client/Pokedex-Frontend/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-6kpy9kkiu8

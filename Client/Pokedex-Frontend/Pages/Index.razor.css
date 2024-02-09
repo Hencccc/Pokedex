@@ -1,0 +1,28 @@
+﻿.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5rem;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+.pokemon-input {
+    border: 1px solid #d5d9d9;
+    border-radius: 0.5rem;
+}
+
+.submit-button {
+    background-color: #fff;
+    border: 1px solid #d5d9d9;
+    border-radius: 0.5rem;
+    padding: 0.12rem 0.5rem 0.12rem 0.5rem;
+}
+
+    .submit-button:hover {
+        background-color: #d5d9d9;
+    }

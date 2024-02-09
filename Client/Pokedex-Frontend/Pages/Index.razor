@@ -1,0 +1,24 @@
+﻿@inherits FluxorComponent
+@page "/"
+@using Pokedex_Frontend.Components
+
+<PageTitle>Index</PageTitle>
+
+<div class="wrapper">
+    <div>
+        <div class="title">
+            <h2>Pokédex</h2>
+        </div>
+        <form>
+            <input type="text" @bind-value=_input class="pokemon-input"/>
+            <button onclick=@DispatchFetchPokemon @onclick:preventDefault=true class="submit-button">Submit</button>
+        </form>
+    </div>
+
+    @if (PokemonState.Value.Pokemon != null)
+    {
+        <div class="pokemon-wrapper">
+            <PokemonComponent Pokemon=PokemonState.Value.Pokemon />
+        </div>
+    }
+</div>
