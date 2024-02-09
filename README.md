@@ -1,0 +1,2 @@
+* This project includes a frontend written in Blazor which utilizes Fluxor as a state management library. It is used in order to search for Pokemons from https://pokeapi.co/ either by name or by their ID. The frontend sends requests to the backend which serves as a reverse proxy.
+* To start the project, clone it, then open the respective .sln-files inside both "Client/Pokedex-frontend" and "Server/Pokedex-backend" in Visual Studio. Then run the solutions.
